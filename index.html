@@ -4,694 +4,672 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Women's fashion">
-    <title>Silon</title>
-
+    <title>Movie Star</title>
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-
-    <!-- THEMIFY ICON -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
-
-    <!-- OWL CAROUSEL -->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    <!-- HEAD CONTACT -->
-    <section class="headContact">
-        <div class="headContact__contact">
-            <p>PHONE: +01 256 25 235</p>
-            <p>EMAIL: INFO@EISER.COM</p>
-        </div>
-        <div class="headContact__content">
-            <a href="#">GIFT CARD</a>
-            <a href="#">TRACK ORDER</a>
-            <a href="#">LANGUAGE</a>
-        </div>
-    </section>
+    <!-- ////// START ////// -->
     <!-- HEADER -->
     <header class="header">
-        <div class="header__content">
-            <div class="header__logo">
-                <img src="./assets/img/logo.png" alt="logo">
+        <div class="container">
+            <div class="header__contact">
+                <p class="mb-0 text-white text-right">
+                    <i class="fa fa-phone"></i>
+                    <span class="mx-2 pr-2">0163 999 666</span>
+                    <i class="fa fa-search"></i>
+                </p>
             </div>
-            <div class="header__pages">
-                <ul>
-                    <li class="header__home">
-                        <a href="#">home</a>
-                        <ul class="header__subMenu">
-                            <li>
-                                <a href="#">home 1</a>
-                            </li>
-                            <li>
-                                <a href="#">home 2</a>
-                            </li>
-                            <li>
-                                <a href="#">home 3</a>
-                            </li>
-                        </ul>
-                        <i class="header__dropdown ti-angle-down"></i>
-                    </li>
-                    <li>
-                        <a href="#">about</a>
-                    </li>
-                    <li>
-                        <a href="#">services</a>
-                    </li>
-                    <li>
-                        <a href="#">projects</a>
-                    </li>
-                    <li>
-                        <a href="#">blog</a>
-                    </li>
-                    <li>
-                        <a href="#">contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="header__icon">
-                <ul>
-                    <li>
-                        <a href="#"><i class="ti-search"></i></a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="header__itemCount">1</span>
-                            <i class="ti-shopping-cart"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="header__itemCount">09</span>
-                            <i class="ti-heart"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <nav class="container navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse header__navbar" id="myNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item line active">
+                            <a href="#" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a href="#" class="nav-link">WHAT'ON</a>
+                        </li>
+                        <li class="nav-item line"">
+                            <a href=" #" class="nav-link">SHORTCODES</a>
+                        </li>
+                        <li class="nav-item line"">
+                            <a href=" #" class="nav-link">CONTACT</a>
+                        </li>
+                        <li class="nav-item line"">
+                            <a href=" #" class="nav-link" data-toggle="modal" data-target="#sign-up">SIGN UP</a>
+                        </li>
+                        <li class="nav-item line"">
+                            <a href=" #" class="nav-link" data-toggle="modal" data-target="#sign-in">SIGN IN</a>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </header>
-    <!-- CAROUSEL 1 -->
-    <section class="carousel">
-        <div class="carousel__item carousel__text">
-            <h3>ULTIMATE COLLECTION</h3>
-            <h1>Complete Women Fashion Here</h1>
-            <button>shop now</button>
-        </div>
-        <div class="carousel__item carousel__img">
-            <img src="./assets/img/ban-1.png" alt="baner 1">
-        </div>
-
-    </section>
-    <!-- FEATURED PRODUCT -->
-    <section class="product">
-        <h2>feature product</h2>
-        <div class="product__content">
-            <div class="product__item">
-                <figure class="product__image">
-                    <img src="./assets/img/product-1.jpg" alt="product 1">
-                    <figcaption class="product__selection">
-                        <a class="product__icon product__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="product__icon product__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="product__icon product__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="product__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="product__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
+    <div class="modal fade modal__sign-up" id="sign-up">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Register</h3>
+                    <button class="close" data-dismiss="modal">&times;</button>
                 </div>
-            </div>
-            <div class="product__item">
-                <figure class="product__image">
-                    <img src="./assets/img/product-2.jpg" alt="product 2">
-                    <figcaption class="product__selection">
-                        <a class="product__icon product__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="product__icon product__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="product__icon product__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="product__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="product__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="product__item">
-                <figure class="product__image">
-                    <img src="./assets/img/product-3.jpg" alt="product 3">
-                    <figcaption class="product__selection">
-                        <a class="product__icon product__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="product__icon product__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="product__icon product__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="product__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="product__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- BANNER -->
-    <section class="banner">
-        <div class="banner__text">
-            <h1>50% off</h1>
-            <h3>all women's collection</h3>
-            <button>shop now</button>
-        </div>
-        <div class="banner__image">
-            <img src="./assets/img/ban-2.png" alt="banner">
-        </div>
-    </section>
-    <!-- MOST POPULAR -->
-    <section class="popular">
-        <div>
-            <h2>most popular</h2>
-        </div>
-        <div class="owl-carousel popular__content">
-            <div class="popular__item">
-                <figure class="popular__image">
-                    <img src="./assets/img/popular-1.jpg" alt="popular 1">
-                    <figcaption class="popular__selection">
-                        <a class="popular__icon popular__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="popular__icon popular__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="popular__icon popular__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="popular__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="popular__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="popular__item">
-                <figure class="popular__image">
-                    <img src="./assets/img/popular-2.jpg" alt="popular 2">
-                    <figcaption class="popular__selection">
-                        <a class="popular__icon popular__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="popular__icon popular__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="popular__icon popular__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="popular__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="popular__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="popular__item">
-                <figure class="popular__image">
-                    <img src="./assets/img/popular-3.jpg" alt="popular 3">
-                    <figcaption class="popular__selection">
-                        <a class="popular__icon popular__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="popular__icon popular__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="popular__icon popular__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="popular__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="popular__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="popular__item">
-                <figure class="popular__image">
-                    <img src="./assets/img/popular-4.jpg" alt="popular 4">
-                    <figcaption class="popular__selection">
-                        <a class="popular__icon popular__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="popular__icon popular__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="popular__icon popular__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="popular__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="popular__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-        </div>
-        <div class="popular__services">
-            <div class="popular__servicesItem">
-                <img src="./assets/icon/money-1.png" alt="money back">
-                <h3>MONEY BACK GURANTEE</h3>
-                <p>Great fill signs he evening</p>
-            </div>
-            <div class="popular__servicesItem">
-                <img src="./assets/icon/delivery.png" alt="free delivery">
-                <h3>FREE DELIVERY</h3>
-                <p>Great fill signs he evening</p>
-            </div>
-            <div class="popular__servicesItem">
-                <img src="./assets/icon/support.png" alt="always support">
-                <h3>ALWAY SUPPORT</h3>
-                <p>Great fill signs he evening</p>
-            </div>
-            <div class="popular__servicesItem">
-                <img src="./assets/icon/secure-payment.png" alt="secure payment">
-                <h3>SECURE PAYMENT</h3>
-                <p>Great fill signs he evening</p>
-            </div>
-        </div>
-    </section>
-    <!-- TRENDING PRODUCT -->
-    <section class="trending">
-        <h2>trending product</h2>
-        <div class="trending__content">
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-1.jpg" alt="trending 1">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-2.jpg" alt="trending 2">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-3.jpg" alt="trending 3">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-4.jpg" alt="trending 4">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-5.jpg" alt="trending 5">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-6.jpg" alt="trending 6">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-7.jpg" alt="trending 7">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-            <div class="trending__item">
-                <figure class="trending__image">
-                    <img src="./assets/img/trending-8.jpg" alt="trending 8">
-                    <figcaption class="trending__selection">
-                        <a class="trending__icon trending__quickView" href=""><i class="ti-eye"></i></a>
-                        <a class="trending__icon trending__wishlist" href=""><i class="ti-heart"></i></a>
-                        <a class="trending__icon trending__addCart" href=""><i class="ti-shopping-cart"></i></a>
-                    </figcaption>
-                </figure>
-                <div class="trending__info">
-                    <h5>
-                        <a href="#">Red Women Purses</a>
-                    </h5>
-                    <div class="trending__rating">
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                        <a class="ti-star" href="#"></a>
-                    </div>
-                    <p>35$</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SILON JOURNAL -->
-    <section class="journal">
-        <h2>SILON JOURNAL</h2>
-        <div class="journal__content">
-            <div class="journal__item">
-                <figure class="journal__image">
-                    <img src="./assets/img/jounal-1.jpg" alt="journal 1">
-                    <figcaption>
-                        <a class="journal__date" href="#">07, July, 2019</a>
-                        <h3 class="journal__title">
-                            <a href="#">Were divided land his creature which have evening subdue</a>
-                        </h3>
-                        <div class="journal__tags">
-                            <a href="#"><i class="journal__category ti-package"></i>Women Fashion</a>
-                            <a href="#"><i class="journal__comments ti-comments"></i>2 Comments</a>
+                <div class="modal-body">
+                    <form>
+                        <label for="user">User Name:</label>
+                        <input class="form-control" type="text" placeholder="Name" id="user">
+                        <label for="pass">Password:</label>
+                        <input class="form-control" type="password" id="pass" placeholder="Password">
+                        <label for="email">Email:</label>
+                        <input class="form-control" type="email" id="email" placeholder="abc123@example.com">
+                        <div class="sign-up__gender mt-3">
+                            <label>Gender:</label>
+                            <input type="radio" id="male" value="M" name="gender">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" value="F" name="gender">
+                            <label for="female">Female</label>
                         </div>
-                    </figcaption>
-
-                </figure>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button class="btn btn-gradient" type="submit">Sign up</button>
+                </div>
             </div>
-            <div class="journal__item">
-                <figure class="journal__image">
-                    <img src="./assets/img/jounal-2.jpg" alt="journal 2">
-                    <figcaption>
-                        <a class="journal__date" href="#">07, July, 2019</a>
-                        <h3 class="journal__title">
-                            <a href="#">Were divided land his creature which have evening subdue</a>
-                        </h3>
-                        <div class="journal__tags">
-                            <a href="#"><i class="journal__category ti-package"></i>Women Fashion</a>
-                            <a href="#"><i class="journal__comments ti-comments"></i>2 Comments</a>
-                        </div>
-                    </figcaption>
-
-                </figure>
+        </div>
+    </div>
+    <div class="modal fade modal__sign-in" id="sign-in">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Login</h3>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label for="user">User Name:</label>
+                        <input class="form-control" type="text" placeholder="Name" id="user">
+                        <label for="pass">Password:</label>
+                        <input class="form-control" type="password" id="pass" placeholder="Password">
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button class="btn btn-gradient" type="submit">Login</button>
+                </div>
             </div>
-            <div class="journal__item">
-                <figure class="journal__image">
-                    <img src="./assets/img/jounal-3.jpg" alt="journal 3">
-                    <figcaption>
-                        <a class="journal__date" href="#">07, July, 2019</a>
-                        <h3 class="journal__title">
-                            <a href="#">Were divided land his creature which have evening subdue</a>
-                        </h3>
-                        <div class="journal__tags">
-                            <a href="#"><i class="journal__category ti-package"></i>Women Fashion</a>
-                            <a href="#"><i class="journal__comments ti-comments"></i>2 Comments</a>
+        </div>
+    </div>
+    <!-- CAROUSEL -->
+    <section class="my-carousel">
+        <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel">
+            <ol class="carousel-indicators justify-content-start">
+                <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-item__1">
+                    <div class="carousel-item__overlay"></div>
+                    <div class="carousel-item__caption container text-white">
+                        <span class="carousel__title">ACTION, ADVENTURE, FANTASY </span>
+                        <h1 class="display-4">End of the world: Part I</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui ad aut laboriosam
+                            provident perferendis, maxime doloribus eos eaque fugiat.</p>
+                        <div class="carousel-item__trailer mt-4">
+                            <span class="mr-2 d-inline-block rounded-circle text-center">PG</span>
+                            <button class="btn-orange border-0">
+                                <i class="fa fa-play"></i>
+                                PLAY TRAILER
+                            </button>
                         </div>
-                    </figcaption>
-
-                </figure>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item__2">
+                    <div class="carousel-item__overlay"></div>
+                    <div class="carousel-item__caption container text-white">
+                        <span class="carousel__title">ACTION, ADVENTURE, FANTASY </span>
+                        <h1 class="display-4">End of the world: Part I</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui ad aut laboriosam
+                            provident perferendis, maxime doloribus eos eaque fugiat.</p>
+                        <div class="carousel-item__trailer mt-4">
+                            <span class="mr-2 d-inline-block rounded-circle text-center">PG</span>
+                            <button class="btn-orange border-0">
+                                <i class="fa fa-play"></i>
+                                PLAY TRAILER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item__3">
+                    <div class="carousel-item__overlay"></div>
+                    <div class="carousel-item__caption container text-white">
+                        <span class="carousel__title">ACTION, ADVENTURE, FANTASY </span>
+                        <h1 class="display-4">End of the world: Part I</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui ad aut laboriosam
+                            provident perferendis, maxime doloribus eos eaque fugiat.</p>
+                        <div class="carousel-item__trailer mt-4">
+                            <span class="mr-2 d-inline-block rounded-circle text-center">PG</span>
+                            <button class="btn-orange border-0">
+                                <i class="fa fa-play"></i>
+                                PLAY TRAILER
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- FOLLOW US -->
-    <section class="follow">
-        <h2>follow us</h2>
-        <div class="follow__content">
-            <div class="follow__item">
-                <figure>
-                    <img src="./assets/img/follow-1.jpg" alt="follow 1">
-                    <figcaption class="follow__social">
-                        <a href="#">
-                            <i class="ti-instagram"></i>
-                        </a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="follow__item">
-                <figure>
-                    <img src="./assets/img/follow-2.jpg" alt="follow 2">
-                    <figcaption class="follow__social">
-                        <a href="#">
-                            <i class="ti-instagram"></i>
-                        </a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="follow__item">
-                <figure>
-                    <img src="./assets/img/follow-3.jpg" alt="follow 3">
-                    <figcaption class="follow__social">
-                        <a href="#">
-                            <i class="ti-instagram"></i>
-                        </a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="follow__item">
-                <figure>
-                    <img src="./assets/img/follow-4.jpg" alt="follow 4">
-                    <figcaption class="follow__social">
-                        <a href="#">
-                            <i class="ti-instagram"></i>
-                        </a>
-                    </figcaption>
-                </figure>
+
+    <!-- SHOWING MOVIE -->
+    <section class="showing">
+        <div class="container">
+            <h1 class="showing__title section-title line">SHOWING MOVIES</h1>
+            <div class="row">
+                <div class="col-md-3 col-6 mb-md-0 mb-4 text-center">
+                    <div class="showing__detail">
+                        <img class="w-100 img-fluid" src="./img/movie-1.jpg" alt="">
+                        <div class="showing-detail__overlay"></div>
+                        <div class="showing-detail__caption text-white">
+                            <i class="fa fa-play d-block"></i>
+                            <a class="d-block" href="#">READ MORE</a>
+                            <span class="d-block">Release: 7, Mar, 2017</span>
+                        </div>
+                    </div>
+                    <p class="showing__name">Hush</p>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                </div>
+                <div class="col-md-3 col-6 mb-md-0 mb-4  text-center">
+                    <div class="showing__detail">
+                        <img class="w-100 img-fluid" src="./img/movie-2.jpg" alt="">
+                        <div class="showing-detail__overlay"></div>
+                        <div class="showing-detail__caption text-white">
+                            <i class="fa fa-play d-block"></i>
+                            <a class="d-block" href="#">READ MORE</a>
+                            <span class="d-block">Release: 7, Mar, 2017</span>
+                        </div>
+                    </div>
+                    <p class="showing__name">Hush</p>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                </div>
+                <div class="col-md-3 col-6 mb-md-0 mb-4  text-center">
+                    <div class="showing__detail">
+                        <img class="w-100 img-fluid" src="./img/movie-3.jpg" alt="">
+                        <div class="showing-detail__overlay"></div>
+                        <div class="showing-detail__caption text-white">
+                            <i class="fa fa-play d-block"></i>
+                            <a class="d-block" href="#">READ MORE</a>
+                            <span class="d-block">Release: 7, Mar, 2017</span>
+                        </div>
+                    </div>
+                    <p class="showing__name">Hush</p>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                </div>
+                <div class="col-md-3 col-6 mb-md-0 mb-4  text-center">
+                    <div class="showing__detail">
+                        <img class="w-100 img-fluid" src="./img/movie-4.jpg" alt="">
+                        <div class="showing-detail__overlay"></div>
+                        <div class="showing-detail__caption text-white">
+                            <i class="fa fa-play d-block"></i>
+                            <a class="d-block" href="#">READ MORE</a>
+                            <span class="d-block">Release: 7, Mar, 2017</span>
+                        </div>
+                    </div>
+                    <p class="showing__name">Hush</p>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                    <i class="fa fa-star showing__star"></i>
+                </div>
             </div>
         </div>
-
+        </div>
+    </section>
+    <!-- SHOWTIME -->
+    <section class="showtime">
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link line" id="home-tab" data-toggle="tab" href="#mon" role="tab">MON</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link line" id="home-tab" data-toggle="tab" href="#tue" role="tab">TUE</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link line" id="home-tab" data-toggle="tab" href="#wed" role="tab">WED</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link line" id="home-tab" data-toggle="tab" href="#thu" role="tab">THU</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link line" id="home-tab" data-toggle="tab" href="#fri" role="tab">FRI</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link line" id="home-tab" data-toggle="tab" href="#sat" role="tab">SAT</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link line" id="home-tab" data-toggle="tab" href="#sun" role="tab">SUN</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="mon" role="tabpanel">
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-11.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-11.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="tue" role="tabpanel">
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-12.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="wed" role="tabpanel">
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-13.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="thu" role="tabpanel">
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-11.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="fri" role="tabpanel">
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-13.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="sat" role="tabpanel">
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-11.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="sun" role="tabpanel">
+                    <div class="row py-5 showtime__movie">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="./img/movie-12.jpg" alt="movie">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="showtime__detail">
+                                <span class="showtime__title">ACTION, ADVENTURE, FANTASY </span>
+                                <h1 class="display-4">It's over</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quod.</p>
+                                <a class="d-block mb-4" href="#">
+                                    FULL SYNOSIS
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="showtime__list d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="fa fa-clock"></i>
+                                        <span class="mr-2">VIEWING TIME</span>
+                                        <button class="btn btn-secondary mr-2 disabled">14.25</button>
+                                        <button class="btn btn-secondary mr-2">16.45</button>
+                                        <button class="btn btn-secondary mr-2">17.25</button>
+                                        <button class="btn btn-secondary mr-2">19.25</button>
+                                    </div>
+                                    <p class="showtime__length">
+                                        105 MINS
+                                        <span
+                                            class="showtime__min d-inline-block bg-dark text-white font-weight-bold ml-2">15</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COMING SOON -->
+    <section class="coming">
+        <div class="coming__bg">
+            <div class="container p-5">
+                <h1 class="coming__title line">coming SOON</h1>
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center order-md-1 order-2">
+                        <div class="coming__detail text-white">
+                            <span>COMEDY, CRIME</span>
+                            <h1 class="display-4">The Hangover Part III</h1>
+                            <p>
+                                <i class="fa fa-star coming__star"></i>
+                                <i class="fa fa-star coming__star"></i>
+                                <i class="fa fa-star coming__star"></i>
+                                <i class="fa fa-star coming__star"></i>
+                                <i class="fa fa-star coming__star"></i>
+                                <span class="coming__day">
+                                    <i class="far fa-calendar-alt"></i>
+                                    30, September, 2017
+                                </span>
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ducimus nisi odit velit ut
+                                officiis. Quo asperiores quis repellendus fuga!</p>
+                            <a href="#">
+                                MORE INFO
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1">
+                        <div class="coming__trailer">
+                            <img src="./img/slide-3-video.png" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coming__list py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-4 mb-md-0 mb-4 coming__movie text-center text-white active">
+                        <img src="./img/movie-11.jpg" alt="">
+                        <h3>Hush</h3>
+                        <span>07 September, 2017</span>
+                    </div>
+                    <div class="col-md-2 col-4 mb-md-0 mb-4 coming__movie text-center text-white">
+                        <img src="./img/movie-8.jpg" alt="">
+                        <h3>Too fast</h3>
+                        <span>07 September, 2017</span>
+                    </div>
+                    <div class="col-md-2 col-4 mb-md-0 mb-4 coming__movie text-center text-white">
+                        <img src="./img/movie-9.jpg" alt="">
+                        <h3>Too fast</h3>
+                        <span>07 September, 2017</span>
+                    </div>
+                    <div class="col-md-2 col-4 mb-md-0 mb-4 coming__movie text-center text-white">
+                        <img src="./img/movie-6.jpg" alt="">
+                        <h3>Too fast</h3>
+                        <span>07 September, 2017</span>
+                    </div>
+                    <div class="col-md-2 col-4 mb-md-0 mb-4 coming__movie text-center text-white">
+                        <img src="./img/movie-5.jpg" alt="">
+                        <h3>Too fast</h3>
+                        <span>07 September, 2017</span>
+                    </div>
+                    <div class="col-md-2 col-4 mb-md-0 mb-4 coming__movie text-center text-white">
+                        <img src="./img/movie-4.jpg" alt="">
+                        <h3>Too fast</h3>
+                        <span>07 September, 2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="contact py-5 text-center">
+        <h3 class="display-4">Need help? Contact our support team on</h3>
+        <span>0163 999 666</span>
     </section>
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer__content">
-            <div class="footer__item">
-                <h3>about us</h3>
-                <ul>
-                    <li><a href="#">Who we are</a></li>
-                    <li><a href="#">Work with us</a></li>
-                    <li><a href="#">Become a supplier</a></li>
-                    <li><a href="#">Investor relations</a></li>
-                    <li><a href="#">Our devices</a></li>
-                    <li><a href="#">Affiliate program</a></li>
-                </ul>
-            </div>
-            <div class="footer__item">
-                <h3>useful link</h3>
-                <ul>
-                    <li><a href="#">Who we are</a></li>
-                    <li><a href="#">Work with us</a></li>
-                    <li><a href="#">Become a supplier</a></li>
-                    <li><a href="#">Investor relations</a></li>
-                    <li><a href="#">Our devices</a></li>
-                    <li><a href="#">Affiliate program</a></li>
-                </ul>
-            </div>
-            <div class="footer__item">
-                <h3>online shopping</h3>
-                <ul>
-                    <li><a href="#">Who we are</a></li>
-                    <li><a href="#">Work with us</a></li>
-                    <li><a href="#">Become a supplier</a></li>
-                    <li><a href="#">Investor relations</a></li>
-                    <li><a href="#">Our devices</a></li>
-                    <li><a href="#">Affiliate program</a></li>
-                </ul>
-            </div>
-            <div class="footer__item">
-                <div class="footer__app">
-                    <h3>experience app on mobile</h3>
-                    <div class="footer__download">
-                        <a class="footer__android" href="#">
-                            <i class="ti-android"></i>
-                            <p><span>get it on</span>google play</p>
-                        </a>
-                        <a class="footer__apple" href="#">
-                            <i class="ti-apple"></i>
-                            <p><span>get it on</span>app store</p>
-                        </a>
-                    </div>
+        <div class="container">
+            <div class="row footer__content px-sm-0 px-2">
+                <div class="col-sm-3 footer__item">
+                    <h3>GET IN TOUCH</h3>
+                    <p>FAQs</p>
+                    <p>Give us feedback</p>
+                    <p>Contact us</p>
                 </div>
-                <div class="footer__social">
-                    <h3>online shopping</h3>
-                    <div class="footer__icon">
-                        <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter"></i></a>
-                        <a href="#"><i class="ti-pinterest"></i></a>
-                        <a href="#"><i class="ti-instagram"></i></a>
-                    </div>
+                <div class="col-sm-3 footer__item">
+                    <h3>ABOUT MOVIE STAR</h3>
+                    <p>About us</p>
+                    <p>Find us</p>
+                    <p>Schedule</p>
+                    <p>News</p>
+                </div>
+                <div class="col-sm-3 footer__item">
+                    <h3>LEGAL STUFF</h3>
+                    <p>Terms & conditions</p>
+                    <p>Privacy policy</p>
+                    <p>Cookie policy</p>
+                </div>
+                <div class="col-sm-3 footer__item">
+                    <h3>CONNECT WITH US</h3>
+                    <p>
+                        <i class="fab fa-facebook-f"></i>
+                        Facebook
+                    </p>
+                    <p>
+                        <i class="fab fa-twitter"></i>
+                        Twitter
+                    </p>
+                    <p>
+                        <i class="fab fa-google-plus-g"></i>
+                        Google +
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col footer__copyright text-white px-sm-0 px-2">
+                    <p>2017 &copy; Movie Star / Web designed by Klever media</p>
                 </div>
             </div>
         </div>
-        <p class="footer__copyright">
-            Copyright © 2019 <span>themeies.com</span>. All rights reserved
-        </p>
     </footer>
-    <!-- JQUERY -->
+    <!-- ////// END ////// -->
+    <!-- BOOTSTRAP -->
     <script src="./js/jquery.min.js"></script>
-    <!-- OWL CAROUSEL -->
-    <script src="./js/owl.carousel.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                nav: false,
-                autoplay: true,
-                autoplayHoverPause: true,
-                items: 4
-            });
-        });
-    </script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
